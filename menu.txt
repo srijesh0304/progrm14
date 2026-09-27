@@ -1,0 +1,9 @@
+
+#!/bin/bash
+echo &quot;Enter file name:&quot;
+read file
+if [ -f &quot;$file&quot; ]; then
+echo &quot;File exists&quot;
+else
+echo &quot;File does not exist&quot;
+fi
